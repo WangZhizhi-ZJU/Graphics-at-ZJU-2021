@@ -1,0 +1,46 @@
+﻿  Reading Qt configuration (C:/Qt/Qt5.12.11/5.12.11/msvc2017_64/bin/qmake)
+  uic DeveloperInfoForm.ui
+  uic GDRenameDialog.ui
+  uic GDRescaleDialog.ui
+  uic GLArea.ui
+  uic GLInfo.ui
+  uic GraphicsatZJU.ui
+  uic GraphicsDocument.ui
+  uic GuideForm.ui
+  uic WelcomeForm.ui
+  rcc GraphicsatZJU.qrc
+  moc GraphicsatZJU.h
+  moc WidgetsEvents.h
+  moc WelcomeForm.h
+  moc DeveloperInfoForm.h
+  moc GraphicsDocument.h
+  moc GLArea.h
+  moc GLInfo.h
+  moc GDRenameDialog.h
+  moc GuideForm.h
+  moc GDRescaleDialog.h
+  DeveloperInfoForm.cpp
+  GDRenameDialog.cpp
+  GDRescaleDialog.cpp
+  GLArea.cpp
+  GLInfo.cpp
+  GraphicsDocument.cpp
+  GuideForm.cpp
+  MeshModel.cpp
+  WelcomeForm.cpp
+  WidgetsEvents.cpp
+  GraphicsatZJU.cpp
+  main.cpp
+C:\Users\Administrator\Desktop\Graphics at ZJU -_-\Binaries\GraphicsatZJU.cpp(768): warning C4715: “GraphicsatZJU::getCurrentMenuButton”: 不是所有的控件路径都返回值
+  qrc_GraphicsatZJU.cpp
+  moc_GraphicsatZJU.cpp
+  moc_WidgetsEvents.cpp
+  moc_WelcomeForm.cpp
+  moc_DeveloperInfoForm.cpp
+  moc_GraphicsDocument.cpp
+  moc_GLArea.cpp
+  moc_GLInfo.cpp
+  moc_GDRenameDialog.cpp
+  moc_GuideForm.cpp
+  moc_GDRescaleDialog.cpp
+  Graphics at ZJU.vcxproj -> C:\Users\Administrator\Desktop\Graphics at ZJU -_-\Binaries\x64\Release\Graphics at ZJU.exe

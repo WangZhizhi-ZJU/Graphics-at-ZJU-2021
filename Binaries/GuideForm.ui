@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GuideForm</class>
+ <widget class="QWidget" name="GuideForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>331</width>
+    <height>410</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>331</width>
+    <height>410</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>331</width>
+    <height>410</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>功能与快捷键</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="GraphicsatZJU.qrc">
+    <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x03D.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x03D.png</iconset>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>311</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="midLineWidth">
+    <number>1</number>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="rowCount">
+    <number>67</number>
+   </property>
+   <property name="columnCount">
+    <number>2</number>
+   </property>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>7</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>9</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>11</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>12</string>
+    </property>
+   </row>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <column>
+    <property name="text">
+     <string>功能/操作</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>快捷键</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>绕竖坐标旋转视角</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>鼠标左键水平拖动</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>绕纵坐标旋转视角</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>鼠标左键竖直拖动</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>绕横坐标旋转视角</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>鼠标右键竖直拖动</string>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>严格绕竖坐标旋转视角</string>
+    </property>
+   </item>
+   <item row="3" column="1">
+    <property name="text">
+     <string>Shift + 鼠标左键水平拖动</string>
+    </property>
+   </item>
+   <item row="4" column="0">
+    <property name="text">
+     <string>严格绕纵坐标旋转视角</string>
+    </property>
+   </item>
+   <item row="4" column="1">
+    <property name="text">
+     <string>Shift + 鼠标左键竖直拖动</string>
+    </property>
+   </item>
+   <item row="5" column="0">
+    <property name="text">
+     <string>视图放大</string>
+    </property>
+   </item>
+   <item row="5" column="1">
+    <property name="text">
+     <string>鼠标滚轮向上</string>
+    </property>
+   </item>
+   <item row="6" column="0">
+    <property name="text">
+     <string>视图缩小</string>
+    </property>
+   </item>
+   <item row="6" column="1">
+    <property name="text">
+     <string>鼠标滚轮向下</string>
+    </property>
+   </item>
+   <item row="7" column="0">
+    <property name="text">
+     <string>模型放大</string>
+    </property>
+   </item>
+   <item row="7" column="1">
+    <property name="text">
+     <string>Alt + 鼠标滚轮向上</string>
+    </property>
+   </item>
+   <item row="8" column="0">
+    <property name="text">
+     <string>模型缩小</string>
+    </property>
+   </item>
+   <item row="8" column="1">
+    <property name="text">
+     <string>Alt + 鼠标滚轮向下</string>
+    </property>
+   </item>
+   <item row="9" column="0">
+    <property name="text">
+     <string>模型沿横坐标移动</string>
+    </property>
+   </item>
+   <item row="9" column="1">
+    <property name="text">
+     <string>Ctrl + 鼠标左键水平拖动</string>
+    </property>
+   </item>
+   <item row="10" column="0">
+    <property name="text">
+     <string>模型沿纵坐标移动</string>
+    </property>
+   </item>
+   <item row="10" column="1">
+    <property name="text">
+     <string>Ctrl + 鼠标滚轮</string>
+    </property>
+   </item>
+   <item row="11" column="0">
+    <property name="text">
+     <string>模型沿竖坐标移动</string>
+    </property>
+   </item>
+   <item row="11" column="1">
+    <property name="text">
+     <string>Ctrl + 鼠标左键竖直拖动</string>
+    </property>
+   </item>
+   <item row="12" column="0">
+    <property name="text">
+     <string>新建文档</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x025.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x025.png</iconset>
+    </property>
+   </item>
+   <item row="12" column="1">
+    <property name="text">
+     <string>Ctrl + N</string>
+    </property>
+   </item>
+   <item row="13" column="0">
+    <property name="text">
+     <string>打开文档/模型</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x001.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x001.png</iconset>
+    </property>
+   </item>
+   <item row="13" column="1">
+    <property name="text">
+     <string>Ctrl + O</string>
+    </property>
+   </item>
+   <item row="14" column="0">
+    <property name="text">
+     <string>重命名当前文档</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x084.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x084.png</iconset>
+    </property>
+   </item>
+   <item row="14" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="15" column="0">
+    <property name="text">
+     <string>保存当前文档</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x002.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x002.png</iconset>
+    </property>
+   </item>
+   <item row="15" column="1">
+    <property name="text">
+     <string>Ctrl + S</string>
+    </property>
+   </item>
+   <item row="16" column="0">
+    <property name="text">
+     <string>项目另存为</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x082.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x082.png</iconset>
+    </property>
+   </item>
+   <item row="16" column="1">
+    <property name="text">
+     <string>Ctrl + Alt + S</string>
+    </property>
+   </item>
+   <item row="17" column="0">
+    <property name="text">
+     <string>保存全部文档</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x083.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x083.png</iconset>
+    </property>
+   </item>
+   <item row="17" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="18" column="0">
+    <property name="text">
+     <string>重新载入模型</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x026.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x026.png</iconset>
+    </property>
+   </item>
+   <item row="18" column="1">
+    <property name="text">
+     <string>Ctrl + R</string>
+    </property>
+   </item>
+   <item row="19" column="0">
+    <property name="text">
+     <string>快速保存截图</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x081.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x081.png</iconset>
+    </property>
+   </item>
+   <item row="19" column="1">
+    <property name="text">
+     <string>Ctrl + Alt + N</string>
+    </property>
+   </item>
+   <item row="20" column="0">
+    <property name="text">
+     <string>导出为三维模型</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x032.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x032.png</iconset>
+    </property>
+   </item>
+   <item row="20" column="1">
+    <property name="text">
+     <string>Ctrl + E</string>
+    </property>
+   </item>
+   <item row="21" column="0">
+    <property name="text">
+     <string>退出</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x04C.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x04C.png</iconset>
+    </property>
+   </item>
+   <item row="21" column="1">
+    <property name="text">
+     <string>Shift + Esc</string>
+    </property>
+   </item>
+   <item row="22" column="0">
+    <property name="text">
+     <string>点阵</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x031.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x031.png</iconset>
+    </property>
+   </item>
+   <item row="22" column="1">
+    <property name="text">
+     <string>Ctrl + Shift + P</string>
+    </property>
+   </item>
+   <item row="23" column="0">
+    <property name="text">
+     <string>线框</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x028.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x028.png</iconset>
+    </property>
+   </item>
+   <item row="23" column="1">
+    <property name="text">
+     <string>Ctrl + Shift + L</string>
+    </property>
+   </item>
+   <item row="24" column="0">
+    <property name="text">
+     <string>线框填充</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x034.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x034.png</iconset>
+    </property>
+   </item>
+   <item row="24" column="1">
+    <property name="text">
+     <string>Ctrl + Shift + F</string>
+    </property>
+   </item>
+   <item row="25" column="0">
+    <property name="text">
+     <string>面填充</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x033.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x033.png</iconset>
+    </property>
+   </item>
+   <item row="25" column="1">
+    <property name="text">
+     <string>Alt + Shift + S</string>
+    </property>
+   </item>
+   <item row="26" column="0">
+    <property name="text">
+     <string>平滑填充</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x035.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x035.png</iconset>
+    </property>
+   </item>
+   <item row="26" column="1">
+    <property name="text">
+     <string>Alt + Shift + L</string>
+    </property>
+   </item>
+   <item row="27" column="0">
+    <property name="text">
+     <string>光照</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x036.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x036.png</iconset>
+    </property>
+   </item>
+   <item row="27" column="1">
+    <property name="text">
+     <string>Ctrl + L</string>
+    </property>
+   </item>
+   <item row="28" column="0">
+    <property name="text">
+     <string>显示包围盒</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x01D.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x01D.png</iconset>
+    </property>
+   </item>
+   <item row="28" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="29" column="0">
+    <property name="text">
+     <string>显示中心点</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0xFFF.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0xFFF.png</iconset>
+    </property>
+   </item>
+   <item row="29" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="30" column="0">
+    <property name="text">
+     <string>显示坐标轴</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x01C.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x01C.png</iconset>
+    </property>
+   </item>
+   <item row="30" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="31" column="0">
+    <property name="text">
+     <string>状态监视器</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x051.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x051.png</iconset>
+    </property>
+   </item>
+   <item row="31" column="1">
+    <property name="text">
+     <string>Ctrl + Shift + M</string>
+    </property>
+   </item>
+   <item row="32" column="0">
+    <property name="text">
+     <string>关闭滤镜</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x070.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x070.png</iconset>
+    </property>
+   </item>
+   <item row="32" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="33" column="0">
+    <property name="text">
+     <string>曝光</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x071.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x071.png</iconset>
+    </property>
+   </item>
+   <item row="33" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="34" column="0">
+    <property name="text">
+     <string>融合</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x072.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x072.png</iconset>
+    </property>
+   </item>
+   <item row="34" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="35" column="0">
+    <property name="text">
+     <string>彩色</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x073.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x073.png</iconset>
+    </property>
+   </item>
+   <item row="35" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="36" column="0">
+    <property name="text">
+     <string>屏蔽环境光彩色</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x074.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x074.png</iconset>
+    </property>
+   </item>
+   <item row="36" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="37" column="0">
+    <property name="text">
+     <string>网络加密</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x087.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x087.png</iconset>
+    </property>
+   </item>
+   <item row="37" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="38" column="0">
+    <property name="text">
+     <string>网络稀疏</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x089.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x089.png</iconset>
+    </property>
+   </item>
+   <item row="38" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="39" column="0">
+    <property name="text">
+     <string>主视图</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x060.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x060.png</iconset>
+    </property>
+   </item>
+   <item row="39" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="40" column="0">
+    <property name="text">
+     <string>后视图</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x061.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x061.png</iconset>
+    </property>
+   </item>
+   <item row="40" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="41" column="0">
+    <property name="text">
+     <string>俯视图</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x062.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x062.png</iconset>
+    </property>
+   </item>
+   <item row="41" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="42" column="0">
+    <property name="text">
+     <string>仰视图</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x063.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x063.png</iconset>
+    </property>
+   </item>
+   <item row="42" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="43" column="0">
+    <property name="text">
+     <string>左视图</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x064.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x064.png</iconset>
+    </property>
+   </item>
+   <item row="43" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="44" column="0">
+    <property name="text">
+     <string>右视图</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x065.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x065.png</iconset>
+    </property>
+   </item>
+   <item row="44" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="45" column="0">
+    <property name="text">
+     <string>绕X轴顺时针转90°</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x06A.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x06A.png</iconset>
+    </property>
+   </item>
+   <item row="45" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="46" column="0">
+    <property name="text">
+     <string>绕X轴逆时针转90°</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x06B.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x06B.png</iconset>
+    </property>
+   </item>
+   <item row="46" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="47" column="0">
+    <property name="text">
+     <string>绕Y轴顺时针转90°</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x06C.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x06C.png</iconset>
+    </property>
+   </item>
+   <item row="47" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="48" column="0">
+    <property name="text">
+     <string>绕Y轴逆时针转90°</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x06D.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x06D.png</iconset>
+    </property>
+   </item>
+   <item row="48" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="49" column="0">
+    <property name="text">
+     <string>绕Z轴顺时针转90°</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x06F.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x06F.png</iconset>
+    </property>
+   </item>
+   <item row="49" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="50" column="0">
+    <property name="text">
+     <string>绕Z轴逆时针转90°</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x06E.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x06E.png</iconset>
+    </property>
+   </item>
+   <item row="50" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="51" column="0">
+    <property name="text">
+     <string>关闭当前文档</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x04F.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x04F.png</iconset>
+    </property>
+   </item>
+   <item row="51" column="1">
+    <property name="text">
+     <string>Ctrl + Q</string>
+    </property>
+   </item>
+   <item row="52" column="0">
+    <property name="text">
+     <string>关闭所有文档</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x04B.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x04B.png</iconset>
+    </property>
+   </item>
+   <item row="52" column="1">
+    <property name="text">
+     <string>Ctrl + Shift + Q</string>
+    </property>
+   </item>
+   <item row="53" column="0">
+    <property name="text">
+     <string>将当前文档最大化</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x05D.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x05D.png</iconset>
+    </property>
+   </item>
+   <item row="53" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="54" column="0">
+    <property name="text">
+     <string>将全部文档最大化</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x05C.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x05C.png</iconset>
+    </property>
+   </item>
+   <item row="54" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="55" column="0">
+    <property name="text">
+     <string>将当前文档窗口化</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x050.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x050.png</iconset>
+    </property>
+   </item>
+   <item row="55" column="1">
+    <property name="text">
+     <string>Ctrl + W</string>
+    </property>
+   </item>
+   <item row="56" column="0">
+    <property name="text">
+     <string>将全部文档最大化</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x04D.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x04D.png</iconset>
+    </property>
+   </item>
+   <item row="56" column="1">
+    <property name="text">
+     <string>Ctrl + Shift + W</string>
+    </property>
+   </item>
+   <item row="57" column="0">
+    <property name="text">
+     <string>渐变背景</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x01E.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x01E.png</iconset>
+    </property>
+   </item>
+   <item row="57" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="58" column="0">
+    <property name="text">
+     <string>网格背景</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x02A.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x02A.png</iconset>
+    </property>
+   </item>
+   <item row="58" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="59" column="0">
+    <property name="text">
+     <string>无背景</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x01F.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x01F.png</iconset>
+    </property>
+   </item>
+   <item row="59" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="60" column="0">
+    <property name="text">
+     <string>使用正交投影</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x03B.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x03B.png</iconset>
+    </property>
+   </item>
+   <item row="60" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="61" column="0">
+    <property name="text">
+     <string>使用透视投影</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x03A.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x03A.png</iconset>
+    </property>
+   </item>
+   <item row="61" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="62" column="0">
+    <property name="text">
+     <string>功能与快捷键</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x03D.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x03D.png</iconset>
+    </property>
+   </item>
+   <item row="62" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="63" column="0">
+    <property name="text">
+     <string>开发者信息</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x020.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x020.png</iconset>
+    </property>
+   </item>
+   <item row="63" column="1">
+    <property name="text">
+     <string>Ctrl + H</string>
+    </property>
+   </item>
+   <item row="64" column="0">
+    <property name="text">
+     <string>光照颜色</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x108.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x108.png</iconset>
+    </property>
+   </item>
+   <item row="64" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="65" column="0">
+    <property name="text">
+     <string>线面叠加填充</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x0A1.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x0A1.png</iconset>
+    </property>
+   </item>
+   <item row="65" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+   <item row="66" column="0">
+    <property name="text">
+     <string>点面叠加填充</string>
+    </property>
+    <property name="icon">
+     <iconset resource="GraphicsatZJU.qrc">
+      <normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x0A3.png</normaloff>:/GraphicsatZJU/Resources/ToolbarIcons/0x0A3.png</iconset>
+    </property>
+   </item>
+   <item row="66" column="1">
+    <property name="text">
+     <string>—</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>在这里列出了本程序所有的功能、功能对应的图标与部分功能对应的快捷键。</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="GraphicsatZJU.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="WidgetsEvents.cpp" />
+    <ClCompile Include="GraphicsatZJU.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="DeveloperInfoForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WelcomeForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GDRenameDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GuideForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GDRescaleDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="GraphicsatZJU.h" />
+    <QtMoc Include="WidgetsEvents.h" />
+    <QtMoc Include="DeveloperInfoForm.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="WelcomeForm.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="GraphicsDocument.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="GLArea.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="GLInfo.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="GDRenameDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="GuideForm.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="GDRescaleDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="GraphicsatZJU.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="GraphicsatZJU.ui" />
+    <QtUic Include="DeveloperInfoForm.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="WelcomeForm.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="GraphicsDocument.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="GLArea.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="GLInfo.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="GDRenameDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="GuideForm.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="GDRescaleDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Graphics at ZJU1.rc" />
+  </ItemGroup>
+</Project>
